@@ -1,0 +1,77 @@
+{
+  "max_len_train_including_special_tokens": 100,
+  "vocabulary_sizes": {
+    "en": 8000,
+    "vi": 8000
+  },
+  "splits": {
+    "train": {
+      "raw_pairs": 133317,
+      "used_pairs": 132009,
+      "dropped": 1308,
+      "empty_source": 149,
+      "empty_target": 112,
+      "en": {
+        "mean_subwords": 24.776712647299295,
+        "p95_subwords": 58.0,
+        "max_subwords": 815,
+        "sha256": "c26dfeed74b6bf3752f5ca552f2412456f0de153f7c804df8717931fb3a5c78a"
+      },
+      "vi": {
+        "mean_subwords": 25.721205847716345,
+        "p95_subwords": 61.0,
+        "max_subwords": 861,
+        "sha256": "707206edf2dc0280273952c7b70544ea8a1363aa69aaeb9d70514b888dc3067d"
+      },
+      "duplicate_pairs_within_split": 1145
+    },
+    "dev": {
+      "raw_pairs": 1553,
+      "used_pairs": 1553,
+      "dropped": 0,
+      "empty_source": 0,
+      "empty_target": 0,
+      "en": {
+        "mean_subwords": 21.72826786864134,
+        "p95_subwords": 48.0,
+        "max_subwords": 108,
+        "sha256": "b8fbcd0d4199d41276421d1f7228298df67dd9e2c5c134c2ee8cdf3ec27801e2"
+      },
+      "vi": {
+        "mean_subwords": 22.915003219575016,
+        "p95_subwords": 49.0,
+        "max_subwords": 129,
+        "sha256": "01004078b3f36b0c46e81b65fc6851230b3c823405c76d1d82ef3b786b512ff0"
+      },
+      "duplicate_pairs_within_split": 2
+    },
+    "test": {
+      "raw_pairs": 1268,
+      "used_pairs": 1268,
+      "dropped": 0,
+      "empty_source": 0,
+      "empty_target": 0,
+      "en": {
+        "mean_subwords": 25.42192429022082,
+        "p95_subwords": 58.0,
+        "max_subwords": 111,
+        "sha256": "3860ce60bc5b85d96cc2d3d580cf1bc9d62440e939c1b964676d3607c4e8f1df"
+      },
+      "vi": {
+        "mean_subwords": 27.552839116719245,
+        "p95_subwords": 65.0,
+        "max_subwords": 127,
+        "sha256": "29af16842808da2812b8fd4d47fc05d082ba870e60ab7755090ad04b380994cd"
+      },
+      "duplicate_pairs_within_split": 7
+    }
+  },
+  "overlap": {
+    "train_dev_exact_pairs": 12,
+    "train_dev_source_sentences": 14,
+    "train_test_exact_pairs": 12,
+    "train_test_source_sentences": 13,
+    "dev_test_exact_pairs": 3,
+    "dev_test_source_sentences": 3
+  }
+}

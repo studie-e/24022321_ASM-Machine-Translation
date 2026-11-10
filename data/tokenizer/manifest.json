@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "vocab_size_requested": 8000,
+    "normalization": "identity",
+    "training_files": {
+      "en": "c26dfeed74b6bf3752f5ca552f2412456f0de153f7c804df8717931fb3a5c78a",
+      "vi": "707206edf2dc0280273952c7b70544ea8a1363aa69aaeb9d70514b888dc3067d"
+    }
+  },
+  "model_hashes": {
+    "en": "60167afda45493316e71370fd5d6348c5c48a402540030f84f03efff2e158324",
+    "vi": "2d832b65f71288543f261d3b3018699264e71fab9fc64850d344807f55e85bdc"
+  }
+}

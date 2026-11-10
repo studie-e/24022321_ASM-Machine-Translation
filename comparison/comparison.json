@@ -1,0 +1,54 @@
+[
+  {
+    "run": "seq2seq_20261110_194635",
+    "model": "seq2seq",
+    "decoding": "beam5",
+    "bleu": 28.18489462402173,
+    "chrf2": 47.2436471662773,
+    "parameters": 20005889,
+    "best_epoch": 10,
+    "train_seconds": 3825.889373921,
+    "training_device": "Tesla T4",
+    "training_amp": true,
+    "truncated_sentences": 1
+  },
+  {
+    "run": "seq2seq_20261110_194635",
+    "model": "seq2seq",
+    "decoding": "greedy",
+    "bleu": 26.82693410281081,
+    "chrf2": 46.052893021254306,
+    "parameters": 20005889,
+    "best_epoch": 10,
+    "train_seconds": 3825.889373921,
+    "training_device": "Tesla T4",
+    "training_amp": true,
+    "truncated_sentences": 1
+  },
+  {
+    "run": "transformer_20261110_174642",
+    "model": "transformer",
+    "decoding": "beam5",
+    "bleu": 29.78138874160996,
+    "chrf2": 48.702162218869354,
+    "parameters": 39737344,
+    "best_epoch": 28,
+    "train_seconds": 4282.426370582,
+    "training_device": "Tesla T4",
+    "training_amp": true,
+    "truncated_sentences": 0
+  },
+  {
+    "run": "transformer_20261110_174642",
+    "model": "transformer",
+    "decoding": "greedy",
+    "bleu": 28.629691575106147,
+    "chrf2": 47.754979875742386,
+    "parameters": 39737344,
+    "best_epoch": 28,
+    "train_seconds": 4282.426370582,
+    "training_device": "Tesla T4",
+    "training_amp": true,
+    "truncated_sentences": 0
+  }
+]
